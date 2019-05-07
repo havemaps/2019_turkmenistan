@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Turkmenistan, 18-20 April 2019</name>
+    <description/>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Grand Turkmen Hotel</name>
+        <description><![CDATA[type: lodging<br>description: Our group's government approved hotel. ]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>lodging</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[Our group's government approved hotel. ]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3777802,37.9401992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>British Pub</name>
+        <description><![CDATA[type: food and drink<br>description: Approximate locations for where we stopped for lunch the first day. Based on the clientele, it seemed like a pretty standard stop for the tour groups.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>food and drink</value>
+          </Data>
+          <Data name="description">
+            <value>Approximate locations for where we stopped for lunch the first day. Based on the clientele, it seemed like a pretty standard stop for the tour groups.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3757072,37.9414891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Russian Market</name>
+        <description><![CDATA[type: site<br>description: The morning we arrived, the group spent time walking around the Russian market. There were plenty of vendors selling street food and souvenirs as well as regular market necessities.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>The morning we arrived, the group spent time walking around the Russian market. There were plenty of vendors selling street food and souvenirs as well as regular market necessities.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3804256,37.9418298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sha Coffee</name>
+        <description><![CDATA[type: food and drink<br>description: The imposing outside is deceiving, but inside is a really cute and hip coffee shop! Our tour guide, Anna, recommended it. ]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>food and drink</value>
+          </Data>
+          <Data name="description">
+            <value>The imposing outside is deceiving, but inside is a really cute and hip coffee shop! Our tour guide, Anna, recommended it. </value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3768155,37.9438514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inspiration Alley</name>
+        <description><![CDATA[type: site<br>description: This outdoor park is full of monuments to famous Islamic scholars and thinkers.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>This outdoor park is full of monuments to famous Islamic scholars and thinkers.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3772166,37.9441579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tumar House</name>
+        <description><![CDATA[type: food and drink<br>description: I'm not sure if this is the right point. We had lunch the second day at Tumar Pub/Old English Tumar House. It was so charming and cozy with stacks of books surrounding many of the tables.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>food and drink</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[I'm not sure if this is the right point. We had lunch the second day at Tumar Pub/Old English Tumar House. It was so charming and cozy with stacks of books surrounding many of the tables.]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3743357000001,37.9436396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ashgabat Olympic Stadium</name>
+        <description><![CDATA[type: site<br>description: ]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3770383,37.9045114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panorama terrace</name>
+        <description><![CDATA[type: food and drink<br>description: The group had our goodbye dinner here. The view overlooks many of the Ashgabat monuments, and at night, you can see the city light up.]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>food and drink</value>
+          </Data>
+          <Data name="description">
+            <value>The group had our goodbye dinner here. The view overlooks many of the Ashgabat monuments, and at night, you can see the city light up.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3831115,37.8917939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kow Ata Underground Sulfur Spring</name>
+        <description><![CDATA[type: site<br>description: We had a good time relaxing in the sulfur water, curing all of our ailments--at least according to the sign at the entrance. The walk down through the cave is steep, so walk carefully! Our guide said it can get really busy during the weekend, but we had it to ourselves for most of the time. There is a shallow ledge that I spent most of my time in, but the water can get deep. Bring a floaty or maybe some diving flippers if you're adventurous.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[We had a good time relaxing in the sulfur water, curing all of our ailments--at least according to the sign at the entrance. The walk down through the cave is steep, so walk carefully! Our guide said it can get really busy during the weekend, but we had it to ourselves for most of the time. There is a shallow ledge that I spent most of my time in, but the water can get deep. Bring a floaty or maybe some diving flippers if you're adventurous.]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            57.522207,38.2974625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darvaza Gas Crater</name>
+        <description><![CDATA[type: site<br>description: The highlight and the main reason for going on the trip! The crater has been burning off natural gas since 1971, when Soviet geologists were searching for oil. You can walk as close as you'd like to the pit. Our guide told us a local man once fell asleep near the edge and rolled in while asleep, but don't worry, he survived! Read more on wikipedia: https://en.wikipedia.org/wiki/Darvaza_gas_crater]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[The highlight and the main reason for going on the trip! The crater has been burning off natural gas since 1971, when Soviet geologists were searching for oil. You can walk as close as you'd like to the pit. Our guide told us a local man once fell asleep near the edge and rolled in while asleep, but don't worry, he survived! Read more on wikipedia: https://en.wikipedia.org/wiki/Darvaza_gas_crater]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.4397004,40.2526031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campsite</name>
+        <description><![CDATA[type: lodging<br>description: Our campsite for the night was about 250 meters away from the gas crater. We stayed in tents, but one of the drivers had a yurt built in case the weather turned bad. ]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>lodging</value>
+          </Data>
+          <Data name="description">
+            <value>Our campsite for the night was about 250 meters away from the gas crater. We stayed in tents, but one of the drivers had a yurt built in case the weather turned bad. </value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.4365632,40.2513206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crater #2</name>
+        <description><![CDATA[type: site<br>description: This crater had a bubbling mud pit and a small fire burning.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>This crater had a bubbling mud pit and a small fire burning.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.4107876,40.168011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crater #1</name>
+        <description><![CDATA[type: site<br>description: One the way to Darvaza there are a couple other craters, or sinkholes, that we stopped to see. This one was filled with water.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>One the way to Darvaza there are a couple other craters, or sinkholes, that we stopped to see. This one was filled with water.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.4284126,40.0451726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village stop</name>
+        <description><![CDATA[type: site<br>description: On the drive back from Darvaza Gas Crater, we stopped a village to see what life is like outside of Ashgabat. We saw some camels and could hear children playing in the schoolyard nearby.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>On the drive back from Darvaza Gas Crater, we stopped a village to see what life is like outside of Ashgabat. We saw some camels and could hear children playing in the schoolyard nearby.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.5968424,39.3141417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ashgabat International Airport</name>
+        <description><![CDATA[type: site<br>description: ]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3665111,37.9845133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yyldyz Hotel</name>
+        <description><![CDATA[type: site<br>description: Shaped like a teardrop, this building looks similar to the Flame Towers in Baku.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>Shaped like a teardrop, this building looks similar to the Flame Towers in Baku.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3333692,37.9295617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wedding Palace</name>
+        <description><![CDATA[type: site<br>description: The only place in Ashgabat to get married--and divorced! ]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>The only place in Ashgabat to get married--and divorced! </value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3413888,37.926732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Halk Hakydasy Memorial Complex</name>
+        <description><![CDATA[type: site<br>description: This nice park has monuments in remembrance of World War 2 and the earthquake that devastated the city in 1948]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>This nice park has monuments in remembrance of World War 2 and the earthquake that devastated the city in 1948</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3166961,37.9353499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bitaraplyk Binasy</name>
+        <description><![CDATA[type: site<br>description: Known in English as the Neutrality Monument, this tower has a cool elevator that goes up the side of the legs like a funicular.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>Known in English as the Neutrality Monument, this tower has a cool elevator that goes up the side of the legs like a funicular.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3332238,37.8821397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Independence Monument</name>
+        <description><![CDATA[type: site<br>description: The monument is right across from the national library, which was stunning and of course my favorite part about this stop on the city tour.]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="type">
+            <value>site</value>
+          </Data>
+          <Data name="description">
+            <value>The monument is right across from the national library, which was stunning and of course my favorite part about this stop on the city tour.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            58.3822996,37.8811296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

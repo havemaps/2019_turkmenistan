@@ -20,7 +20,7 @@
           width: 100%;
           height: 100%;
         }.leaflet-popup-content {
-min-width: 350px;
+min-width: 300px;
 min-height: 100px;
 overflow-y: scroll;
 }
@@ -81,12 +81,14 @@ overflow-y: scroll;
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
-        var layer_Basemap_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
+            maxZoom: 20,
             opacity: 1.0,
-            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
-        });
-        layer_Basemap_0;
-        map.addLayer(layer_Basemap_0);
+            subdomains:['mt0','mt1','mt2','mt3']
+          });
+
+        googleHybrid;
+        map.addLayer(googleHybrid);
         function pop_Turkmenistan2019_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -110,42 +112,10 @@ overflow-y: scroll;
                         <td colspan="2"><strong>image</strong><br />' + (feature.properties['image'] !== null ? Autolinker.link(String(feature.properties['image'])) : '') + '</td>\
                     </tr>\
                 </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
+            layer.bindPopup(popupContent, {maxHeight: 300});
         }
 
         function style_Turkmenistan2019_1_0(feature) {
-            switch(String(feature.properties['type'])) {
-                case 'food and drink':
-                    return {
-                pane: 'pane_Turkmenistan2019_1',
-                radius: 8.0,
-                stroke: false,
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(208,28,139,1.0)',
-            }
-                    break;
-                case 'lodging':
-                    return {
-                pane: 'pane_Turkmenistan2019_1',
-                radius: 8.0,
-                stroke: false,
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(184,225,134,1.0)',
-            }
-                    break;
-                case 'site':
-                    return {
-                pane: 'pane_Turkmenistan2019_1',
-                radius: 8.0,
-                stroke: false,
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(77,172,38,1.0)',
-            }
-                    break;
-            }
         }
         map.createPane('pane_Turkmenistan2019_1');
         map.getPane('pane_Turkmenistan2019_1').style.zIndex = 401;
@@ -159,7 +129,7 @@ overflow-y: scroll;
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_Turkmenistan2019_1_0(feature));
+                return L.marker(latlng, style_Turkmenistan2019_1_0(feature));
             },
         });
         bounds_group.addLayer(layer_Turkmenistan2019_1);
@@ -175,7 +145,7 @@ overflow-y: scroll;
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Turkmenistan 2019<br /><table><tr><td style="text-align: center;"><img src="legend/Turkmenistan2019_1_foodanddrink0.png" /></td><td>food and drink</td></tr><tr><td style="text-align: center;"><img src="legend/Turkmenistan2019_1_lodging1.png" /></td><td>lodging</td></tr><tr><td style="text-align: center;"><img src="legend/Turkmenistan2019_1_site2.png" /></td><td>site</td></tr></table>': layer_Turkmenistan2019_1,"Basemap": layer_Basemap_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{"Turkmenistan places": layer_Turkmenistan2019_1,"Basemap": googleHybrid,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
